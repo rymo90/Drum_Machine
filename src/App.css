@@ -1,6 +1,13 @@
 .App {
   text-align: center;
-  background-color: white;
+  background-color: red;
   width: 100%;
   height: 100%;
+}
+.World{
+  background-color: blue;
+}
+.Hello{
+  background-color: blue;
+
 }

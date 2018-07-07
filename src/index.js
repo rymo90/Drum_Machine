@@ -6,7 +6,7 @@ import App from './App';
 
 // import registerServiceWorker from './registerServiceWorker';
 
-ReactDOM.render(<App/>, document.getElementById('App'));
+ReactDOM.render(<App/>, document.getElementById('drum-machine'));
 
 
 // registerServiceWorker();
