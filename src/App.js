@@ -7,7 +7,7 @@ class App extends React.Component{
     return(
       <div className="App">
       <Display/>
-
+      <Pad/>
       </div>
     )
   }
@@ -15,8 +15,38 @@ class App extends React.Component{
 function Display(){
   return(
     <div id="display">
-          <h1>World!</h1>
+          <h1>Drum Machine!</h1>
     </div>
+  )
+}
+function Pad(){
+  return(
+    <div className="drum-pad">
+    <div className="container">
+    <div className="row">
+    <div className="col-md-4">
+    <button className="drum-pad-Q">Q</button>
+    <button className="drum-pad-W">W</button>
+    <button className="drum-pad-E">E</button>
+
+    </div>
+    <div className="col-md-4">
+
+    <button className="drum-pad-A">A</button>
+    <button className="drum-pad-S">S</button>
+    <button className="drum-pad-D">D</button>
+    </div>
+    <div className="col-md-4">
+
+    <button className="drum-pad-Z">Z</button>
+    <button className="drum-pad-X">X</button>
+    <button className="drum-pad-C">C</button>
+    </div>
+
+    </div>
+    </div>
+    </div>
+
   )
 }
 export default App;
