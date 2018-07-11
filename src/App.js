@@ -16,6 +16,7 @@ function Display(){
   return(
     <div id="display">
           <h1>Drum Machine!</h1>
+          <h2> Free Code Camp</h2>
     </div>
   )
 }
